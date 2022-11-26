@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(237, 243, 243);
+}
+.nav{
+    padding: 40px 70px 5px 50px;
+}
+.nav-bran ul{
+    float: right;
+}
+.nav-bran ul li{
+    display: inline-block;
+}
+
+.bran{
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(23, 208, 214);
+}
+
+.nav-bran ul li a{
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.nav-bran ul li a:hover{
+    letter-spacing: 5px;
+    color: rgb(144, 243, 243);
+    transition: 0.7s;
+}
+
+.about{
+    margin-top: 40px;
+    width: 70%;
+    margin-left:10%;
+    background-color: rgb(244, 248, 248);
+    border: none;
+    border-radius: 5px;
+    padding: 60px;
+}
+
+.about h1{
+    text-align: center;
+
+}
+.head{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer{
+    margin-top: 70px;
+    height: 400px;
+    background-color: rgb(27, 26, 26);
+}
+
+.lin{
+    display: inline-block;
+}
+.lin ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+
+}
+
+.lin ul li{
+    padding: 10px;
+}
+.lin ul{
+    padding-top: 50px;
+    margin-left: 70px;
+}
+.con{
+    float: right;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.con .ph{
+    font-size: 34px;
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+}
+.con a{
+    text-decoration: none;
+    color: gray;
+}
+.con p{
+    color: gray;
+    padding-top: 10px;
+}
+.logo{
+    color: white;
+    padding-top: 15px;
+    padding-left: 10px;
+}

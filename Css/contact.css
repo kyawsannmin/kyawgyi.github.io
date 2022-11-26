@@ -1,0 +1,164 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #d3eeef;
+}
+.nav{
+    padding: 40px 70px 5px 50px;
+}
+.nav-bran ul{
+    float: right;
+}
+.nav-bran ul li{
+    display: inline-block;
+}
+
+.bran{
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(23, 208, 214);
+}
+
+.nav-bran ul li a{
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.nav-bran ul li a:hover{
+    letter-spacing: 5px;
+    color: rgb(43, 207, 207);
+    transition: 0.7s;
+}
+.noti{
+    color: white;
+    background-color: black;
+}
+  /*end nav*/
+   /* homelink */
+  .homelink p{
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+  .homelink p a{
+    text-decoration: none;
+    color: black;
+  }
+  /* homelink end */
+  .form{
+    width: 100;
+    margin-left: 140px;
+    margin-top: 40px;
+  }
+  .form_input{
+    margin-top: 30px;
+  }
+  input[type="text"],input[type="number"],input[type="email"]{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border:none ;
+  }
+ 
+  input[type="submit"]{
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    color: rgb(97, 210, 225);
+    background-color: rgb(53, 51, 51);
+    width: 100px;
+    height: 40px;
+  }
+  .textarea{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    border-color: aquamarine;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .contact p img{
+    margin-left: 200px;
+    margin-top: 100px;
+    border-radius: 6px;
+  }
+  .h2{
+    color: rgb(75, 72, 72);
+    margin-bottom: 20px;
+  }
+ 
+  .logo_icon{
+    color:rgb(63, 145, 196);
+    padding-right: 30px;
+    margin-bottom: 10px;
+  }
+  .location,.call{
+    font-size: 24px;
+  }
+  .call a{
+    text-decoration: none;
+    color: black;
+  }
+  .call a:hover{
+    text-shadow: -7px 8px 4px rgb(18, 16, 16);
+  }
+  /* input end */
+.map iframe{
+    width: 100%;
+    margin-top: 50px;
+}
+  /* footer start */
+footer{
+    margin-top: 70px;
+    height: 400px;
+    background-color: rgb(27, 26, 26);
+}
+
+.lin{
+    display: inline-block;
+}
+.lin ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+
+}
+
+.lin ul li{
+    padding: 10px;
+}
+.lin ul{
+    padding-top: 50px;
+    margin-left: 70px;
+}
+.con{
+    float: right;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.con .ph{
+    font-size: 34px;
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+}
+.con a{
+    text-decoration: none;
+    color: gray;
+}
+.con p{
+    color: gray;
+    padding-top: 10px;
+}
+.logo{
+    color: white;
+    padding-top: 15px;
+    padding-left: 10px;
+}

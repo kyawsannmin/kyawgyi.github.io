@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    padding:30px 50px 20px 30px;
+}
+.nav ul{
+    float: right;
+}
+.nav ul li{
+    display: inline-block;
+}
+
+.head{
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(24, 173, 192);
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    text-transform:capitalize;
+}
+
+.nav ul li a:hover{
+    letter-spacing: 5px;
+    color: rgb(11, 204, 237);
+    transition: 0.7s;
+}
+   /* nav end */
+
+.header{
+   text-align: center; 
+   word-spacing: 10px;
+   font-style: italic;
+}
+.item{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 40px;
+    text-align: center;
+    grid-row-gap: 30px;
+}
+
+.item div a img{
+    width: 100%;
+}
+
+footer{
+    margin-top: 70px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+}
+
+.lin{
+    display: inline-block;
+}
+.lin ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+
+}
+
+.lin ul li{
+    padding: 10px;
+}
+.lin ul{
+    padding-top: 50px;
+    margin-left: 70px;
+}
+.con{
+    float: right;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.con .ph{
+    font-size: 34px;
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+}
+.con a{
+    text-decoration: none;
+    color: gray;
+}
+.con p{
+    color: gray;
+    padding-top: 10px;
+}
+.logo{
+    color: white;
+    padding-top: 15px;
+    padding-left: 10px;
+}
